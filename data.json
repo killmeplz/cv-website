@@ -1,0 +1,216 @@
+{
+  "email":"killmeplz685@gmail.com",
+  "telegram":"petewithbeard",
+  "github": "https://github.com/killmeplz",
+  "skills":{
+      "AWS":{ "percentage":90 },
+      "Kubernetes, Docker":{ "percentage":90 },
+      "CI/CD":{ "percentage":90 },
+      "Golang":{ "percentage":75 },
+      "Terraform":{ "percentage":90 },
+      "Python":{ "percentage":60 },
+      "MySQL, PostgreSQL":{ "percentage":70 },
+      "Linux":{ "percentage":75 },
+      "GCP":{ "percentage":80 },
+      "Git":{ "percentage":70 },
+      "Blockchain":{ "percentage":55 }
+   },
+  "en":{
+   "name":"Petr Shilo",
+   "title":"Senior DevOps Engineer",
+   "profile":"DevOps SRE with more than 6 years of DevOps\nexperience and more than 10 years in IT overall,\nthe last year as a DevOps Cloud engineer. Technical\nprofessional with complete understanding of the\nentire software development lifecycle. Highly trained\nin CI/CD configuring and Infrastructure\nautomatization and advanced knowledge in\nKubernetes and Cloud solutions.\n",
+   "education":[
+      {
+         "degree":"Bachelor of Computer Science",
+         "institution":"Technical College of Physics and  Mechanics - Computer Science and Programming (Russia)"
+      }
+   ],
+   "languages":[
+      "Russian (Native)",
+      "English (C1)",
+      "Spanish (B1)"
+   ],
+   "experience":[
+      {
+         "title":"Senior DevOps Engineer @ Naviteq.io | Naviteq LTD, Tel-Aviv, Israel",
+         "date":"2023 – current",
+         "description":"Outsource company which provides devops services.\n Setting up CI/CD via jenkins and argocd.\nConfiguring infrastructure through terraform.\nDeveloping microservices for daily routine automation.\n"
+      },
+      {
+         "title":"Senior DevOps Engineer @ Dysnix.com | Ituum OU, Tallinn, Estonia",
+         "date":"2021 – 2023",
+         "description":"Outsource company which provides devops services. Projects: A startup company which makes an \"AI as a service\" platform. This platform provides infrastructure\nand a convenient interface to train models and serve already trained models.\nBlockchain project which is using L2 eth blockchain to reduce transaction costs.\nIntegrated blockchain nodes into k8s environment.\nProvided security audits for our customers related to infrastructure.\nWrote code to improve convenience, reliability and observability in infrastructure.\nReduced the cost of the project’s infrastructure by 30% by adopting scalable technologies such as\nk8s.\n"
+      },
+      {
+         "title":"Senior DevOps Engineer @ Apifonica.com | SmartTel plus OU, Tallinn, Estonia",
+         "date":"2020 – 2021",
+         "description":"Wrote code and supported architecture in high-throughput systems on Google/Amazon cloud.\nImplemented automated build and continuous software integration process to improve release\ndelivery time.\nResearched and identified new technologies and tools helping to grow an agile development\nenvironment.\nWrote code and developed tools and integrations to meet cross-platform user needs.\nDesigned and implemented the infrastructure from scratch which was released into production with\nfully completed SLA.\nReduced feature delivery time by designing and implementing CI/CD automated processes.\n"
+      },
+      {
+         "title":"DevOps Engineer @ GS Labs | Cifra LLC, Saint-Petersburg, Russia",
+         "date":"2017 – 2020",
+         "description":"Worked with cross-functional design teams to create software solutions that elevated client side\nexperience and significantly improved overall functionality and performance.\nMonitored automated build and continuous software integration process to drive build/release failure\nresolution.\nCollaborated with cross-functional development team members to analyze potential system solutions\nbased on evolving client requirements.\n"
+      },
+      {
+         "title":"System Administrator @ Beget.com | Beget LLC, Saint-Petersburg, Russia",
+         "date":"2014 – 2017",
+         "description":"Support and improvement for current infrastructure. Developing microservices for daily routine\nautomation.\n"
+      },
+      {
+         "title":"System Administrator @ Ulmart.ru | Ulmart LLC, Saint-Petersburg, Russia",
+         "company":"ulmart.ru | Ulmart LLC, Saint-Petersburg, Russia",
+         "date":"2013 – 2014",
+         "description":"Worked with cross-functional design teams to create software solutions that elevated client side\nexperience and significantly improved overall functionality and performance.\nMonitored automated build and continuous software integration process to drive build/release failure\nresolution.\nCollaborated with cross-functional development team members to analyze potential system solutions\nbased on evolving client requirements.\n"
+      },
+      {
+         "title":"System Administrator @ Yandex.com | Yandex LLC, Saint-Petersburg, Russia",
+         "company":"yandex.com | Yandex LLC, Saint-Petersburg, Russia",
+         "date":"2013 – 2013",
+         "description":"Automation daily routine in for support team.\nProviding uninterruptible work for internal infrastructure (including windows and linux servers,\nnetwork hardware).\n"
+      },
+      {
+         "title":"Service Desk specialist @ Heinz.com | Heinz Russia LLC, Saint-Petersburg, Russia",
+         "company":"Heinz | Heinz Russia LLC, Saint-Petersburg, Russia",
+         "date":"2011 – 2013",
+         "description":"Helping internal customers with infrastructure related issues.\n"
+      },
+      {
+         "title":"IT trainee @ RIRT LLC | Russian Institute of Radionavigation and Time, Saint-Petersburg, Russia",
+         "company":"Russian Institute of Radionavigation and Time | RIRT LLC, Saint-Petersburg, Russia",
+         "date":"2010 – 2010"
+      }
+   ]
+},
+"ru":{
+   "name":"Петр Шило",
+   "title":"Старший инженер DevOps",
+   "profile":"DevOps SRE с более чем 6-летним опытом работы в DevOps\nи более чем 10-летним опытом работы в ИТ в целом,\nпоследний год в качестве инженера DevOps Cloud. Технический\nпрофессионал с полным пониманием\nвсего жизненного цикла разработки программного обеспечения. Высококвалифицированный\nв настройке CI/CD и автоматизации инфраструктуры\nи глубокими знаниями в области\nKubernetes и облачных решений.\n",
+   "education":[
+      {
+         "degree":"Бакалавр компьютерных наук",
+         "institution":"Технический колледж физики и механики - Компьютерные науки и программирование (Россия)"
+      }
+   ],
+   "languages":[
+      "Русский (родной)",
+      "Английский (C1)",
+      "Испанский (B1)"
+   ],
+   "experience":[
+      {
+         "title":"Старший инженер DevOps @ Naviteq.io | Naviteq LTD, Тель-Авив, Израиль",
+         "date":"2023 – настоящее время",
+         "description":"Аутсорсинговая компания, предоставляющая услуги DevOps.\n Настройка CI/CD через jenkins и argocd.\nНастройка инфраструктуры через terraform.\nРазработка микросервисов для автоматизации повседневных задач.\n"
+      },
+      {
+         "title":"Старший инженер DevOps @ Dysnix.com | Ituum OU, Таллинн, Эстония",
+         "date":"2021 – 2023",
+         "description":"Стартап, создающий платформу \"ИИ как услуга\". Эта платформа предоставляет инфраструктуру\nи удобный интерфейс для обучения моделей и обслуживания уже обученных моделей.\nБлокчейн-проект, использующий L2 eth blockchain для снижения затрат на транзакции.\nИнтеграция блокчейн-узлов в среду k8s.\nПроведение аудитов безопасности для наших клиентов, связанных с инфраструктурой.\nНаписание кода для повышения удобства, надежности и наблюдаемости инфраструктуры.\nСнижение затрат на инфраструктуру проекта на 30% за счет использования масштабируемых технологий, таких как\nk8s.\n"
+      },
+      {
+         "title":"Старший инженер DevOps @ Apifonica.com | SmartTel plus OU, Таллинн, Эстония",
+         "date":"2020 – 2021",
+         "description":"Написание кода и поддержка архитектуры в высокопроизводительных системах на базе Google/Amazon cloud.\nРеализация автоматизированного процесса сборки и непрерывной интеграции программного обеспечения для улучшения времени выпуска.\nИсследование и выявление новых технологий и инструментов, способствующих развитию гибкой среды разработки.\nНаписание кода и разработка инструментов и интеграций для удовлетворения потребностей пользователей на разных платформах.\nПроектирование и реализация инфраструктуры с нуля, которая была выпущена в производство с полностью завершенным SLA.\nСокращение времени доставки функций за счет проектирования и реализации автоматизированных процессов CI/CD.\n"
+      },
+      {
+         "title":"Инженер DevOps @ GS Labs | Cifra LLC, Санкт-Петербург, Россия",
+         "date":"2017 – 2020",
+         "description":"Работа с кросс-функциональными командами по проектированию для создания программных решений, которые повышают удобство работы с клиентами и значительно улучшают общую функциональность и производительность.\nМониторинг автоматизированного процесса сборки и непрерывной интеграции программного обеспечения для решения проблем с выпуском/сборкой.\nСотрудничество с членами кросс-функциональной команды разработчиков для анализа потенциальных системных решений на основе изменяющихся требований клиентов.\n"
+      },
+      {
+         "title":"Системный администратор @ Beget.com | Beget LLC, Санкт-Петербург, Россия",
+         "date":"2014 – 2017",
+         "description":"Поддержка и улучшение текущей инфраструктуры. Разработка микросервисов для автоматизации повседневных задач.\n"
+      },
+      {
+         "title":"Системный администратор @ Ulmart.ru | Ulmart LLC, Санкт-Петербург, Россия",
+         "company":"ulmart.ru | Ulmart LLC, Санкт-Петербург, Россия",
+         "date":"2013 – 2014",
+         "description":"Работа с кросс-функциональными командами по проектированию для создания программных решений, которые повышают удобство работы с клиентами и значительно улучшают общую функциональность и производительность.\nМониторинг автоматизированного процесса сборки и непрерывной интеграции программного обеспечения для решения проблем с выпуском/сборкой.\nСотрудничество с членами кросс-функциональной команды разработчиков для анализа потенциальных системных решений на основе изменяющихся требований клиентов.\n"
+      },
+      {
+         "title":"Системный администратор @ Yandex.com | Yandex LLC, Санкт-Петербург, Россия",
+         "company":"yandex.com | Yandex LLC, Санкт-Петербург, Россия",
+         "date":"2013 – 2013",
+         "description":"Автоматизация повседневных задач для команды поддержки.\nОбеспечение бесперебойной работы внутренней инфраструктуры (включая серверы Windows и Linux,\nсетевое оборудование).\n"
+      },
+      {
+         "title":"Специалист службы поддержки @ Heinz.com | Heinz Russia LLC, Санкт-Петербург, Россия",
+         "company":"Heinz | Heinz Russia LLC, Санкт-Петербург, Россия",
+         "date":"2011 – 2013",
+         "description":"Помощь внутренним клиентам с вопросами, связанными с инфраструктурой.\n"
+      },
+      {
+         "title":"Стажер ИТ @ RIRT LLC | Российский институт радионавигации и времени, Санкт-Петербург, Россия",
+         "company":"Российский институт радионавигации и времени | RIRT LLC, Санкт-Петербург, Россия",
+         "date":"2010 – 2010"
+      }
+   ]
+},
+"es":{
+   "name":"Petr Shilo",
+   "title":"Ingeniero Senior de DevOps",
+   "profile":"DevOps SRE con más de 6 años de experiencia en DevOps\ny más de 10 años en TI en general,\nel último año como ingeniero de DevOps Cloud. Profesional técnico\ncon comprensión completa del\nciclo de vida completo del desarrollo de software. Altamente capacitado\nen la configuración de CI/CD y la automatización de infraestructura\ny conocimientos avanzados en\nsoluciones de Kubernetes y Cloud.\n",
+   "education":[
+      {
+         "degree":"Licenciatura en Ciencias de la Computación",
+         "institution":"Colegio Técnico de Física y Mecánica - Ciencias de la Computación y Programación (Rusia)"
+      }
+   ],
+   "languages":[
+      "Ruso (Nativo)",
+      "Inglés (C1)",
+      "Español (B1)"
+   ],
+   "experience":[
+      {
+         "title":"Ingeniero Senior de DevOps @ Naviteq.io | Naviteq LTD, Tel-Aviv, Israel",
+         "date":"2023 – actual",
+         "description":"Empresa de outsourcing que proporciona servicios de DevOps.\n Configuración de CI/CD a través de jenkins y argocd.\nConfiguración de infraestructura a través de terraform.\nDesarrollo de microservicios para la automatización de tareas diarias.\n"
+      },
+      {
+         "title":"Ingeniero Senior de DevOps @ Dysnix.com | Ituum OU, Tallin, Estonia",
+         "date":"2021 – 2023",
+         "description":"Empresa startup que crea una plataforma de \"IA como servicio\". Esta plataforma proporciona infraestructura\ny una interfaz conveniente para entrenar modelos y servir modelos ya entrenados.\nProyecto de blockchain que utiliza L2 eth blockchain para reducir los costos de transacción.\nIntegración de nodos de blockchain en el entorno de k8s.\nProporcionó auditorías de seguridad para nuestros clientes relacionadas con la infraestructura.\nEscribió código para mejorar la conveniencia, confiabilidad y observabilidad en la infraestructura.\nRedujo el costo de la infraestructura del proyecto en un 30% adoptando tecnologías escalables como\nk8s.\n"
+      },
+      {
+         "title":"Ingeniero Senior de DevOps @ Apifonica.com | SmartTel plus OU, Tallin, Estonia",
+         "date":"2020 – 2021",
+         "description":"Escribió código y apoyó la arquitectura en sistemas de alto rendimiento en Google/Amazon cloud.\nImplementó un proceso automatizado de construcción e integración continua de software para mejorar el tiempo de entrega de lanzamientos.\nInvestigó e identificó nuevas tecnologías y herramientas que ayudan a desarrollar un entorno de desarrollo ágil.\nEscribió código y desarrolló herramientas e integraciones para satisfacer las necesidades de los usuarios en diferentes plataformas.\nDiseñó e implementó la infraestructura desde cero que se lanzó a producción con\nSLA completamente completado.\nRedujo el tiempo de entrega de funciones diseñando e implementando procesos automatizados de CI/CD.\n"
+      },
+      {
+         "title":"Ingeniero de DevOps @ GS Labs | Cifra LLC, San Petersburgo, Rusia",
+         "date":"2017 – 2020",
+         "description":"Trabajó con equipos de diseño multifuncionales para crear soluciones de software que mejoraron la experiencia del cliente y mejoraron significativamente la funcionalidad y el rendimiento general.\nMonitoreó el proceso automatizado de construcción e integración continua de software para resolver problemas de construcción/lanzamiento.\nColaboró con miembros del equipo de desarrollo multifuncional para analizar posibles soluciones del sistema basadas en los requisitos cambiantes del cliente.\n"
+      },
+      {
+         "title":"Administrador de Sistemas @ Beget.com | Beget LLC, San Petersburgo, Rusia",
+         "date":"2014 – 2017",
+         "description":"Soporte y mejora de la infraestructura actual. Desarrollo de microservicios para la automatización de tareas diarias.\n"
+      },
+      {
+         "title":"Administrador de Sistemas @ Ulmart.ru | Ulmart LLC, San Petersburgo, Rusia",
+         "company":"ulmart.ru | Ulmart LLC, San Petersburgo, Rusia",
+         "date":"2013 – 2014",
+         "description":"Trabajó con equipos de diseño multifuncionales para crear soluciones de software que mejoraron la experiencia del cliente y mejoraron significativamente la funcionalidad y el rendimiento general.\nMonitoreó el proceso automatizado de construcción e integración continua de software para resolver problemas de construcción/lanzamiento.\nColaboró con miembros del equipo de desarrollo multifuncional para analizar posibles soluciones del sistema basadas en los requisitos cambiantes del cliente.\n"
+      },
+      {
+         "title":"Administrador de Sistemas @ Yandex.com | Yandex LLC, San Petersburgo, Rusia",
+         "company":"yandex.com | Yandex LLC, San Petersburgo, Rusia",
+         "date":"2013 – 2013",
+         "description":"Automatización de tareas diarias para el equipo de soporte.\nProporcionar trabajo ininterrumpido para la infraestructura interna (incluidos servidores Windows y Linux,\nequipos de red).\n"
+      },
+      {
+         "title":"Especialista de Mesa de Servicio @ Heinz.com | Heinz Russia LLC, San Petersburgo, Rusia",
+         "company":"Heinz | Heinz Russia LLC, San Petersburgo, Rusia",
+         "date":"2011 – 2013",
+         "description":"Ayudar a los clientes internos con problemas relacionados con la infraestructura.\n"
+      },
+      {
+         "title":"Practicante de TI @ RIRT LLC | Instituto Ruso de Radionavegación y Tiempo, San Petersburgo, Rusia",
+         "company":"Instituto Ruso de Radionavegación y Tiempo | RIRT LLC, San Petersburgo, Rusia",
+         "date":"2010 – 2010"
+      }
+   ]
+}
+}

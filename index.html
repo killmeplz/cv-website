@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{ isDark: true, language: 'en', cvData: {} }" x-init="fetch('data.json').then(response => response.json()).then(data => cvData = data)">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title x-text="cvData[language]?.name + ' | CV'">CV</title>
+    <!-- Alpine.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body x-bind:class="isDark ? 'dark-mode' : 'light-mode'">
+    <header class="header">
+      <div class="header-left">
+        <h1 x-text="cvData[language]?.name"></h1>
+      </div>
+      <div class="header-right">
+        <div class="contact-buttons">
+          <a :href="'https://t.me/' + cvData?.telegram" class="btn" target="_blank">
+            <i class="fab fa-telegram-plane"></i> Telegram
+          </a>
+          <a :href="'mailto:' + cvData?.email" class="btn">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+          <a :href="cvData?.github" class="btn" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <select x-model="language" class="btn">
+            <option value="en">English</option>
+            <option value="ru">Russian</option>
+            <option value="es">Spanish</option>
+          </select>
+          <button @click="isDark = !isDark" class="btn" x-text="isDark ? 'Light Mode' : 'Dark Mode'"></button>
+        </div>
+      </div>
+    </header>
+    <p x-text="cvData[language]?.title" class="job-title"></p>
+    <section class="profile-summary">
+      <h2>Profile</h2>
+      <p x-text="cvData[language]?.profile"></p>
+    </section>
+    <main class="flex-container">
+      <section class="left-column">
+        <h2>Experience</h2>
+        <template x-for="job in cvData[language]?.experience" :key="job.title">
+          <article>
+            <h3 x-text="job.title"></h3>
+            <small x-text="job.date"></small>
+            <p x-text="job.description"></p>
+          </article>
+        </template>
+      </section>
+      <section class="right-column">
+        <h2>Skills</h2>
+        <ul>
+          <template x-for="(skill, key) in cvData?.skills" :key="key">
+            <li>
+              <span x-text="key"></span>
+              <div class="progress-bar">
+                <div class="progress" :style="{ width: skill.percentage + '%' }"></div>
+              </div>
+            </li>
+          </template>
+        </ul>
+        <h2>Education</h2>
+        <ul>
+          <template x-for="edu in cvData[language]?.education" :key="edu.degree">
+            <article>
+              <h3 x-text="edu.degree"></h3>
+              <small x-text="edu.institution"></small>
+            </article>
+          </template>
+        </ul>
+        <h2>Languages</h2>
+        <ul>
+          <template x-for="language in cvData[language]?.languages" :key="language">
+            <li x-text="language"></li>
+          </template>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
