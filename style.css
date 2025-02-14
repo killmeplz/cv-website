@@ -168,6 +168,10 @@ body.light-mode .dropdown-content button:hover {
   margin-top: 5px;
 }
 
+article {
+  margin-bottom: 2.5rem; /* Adjust this value to change the interval */
+}
+
 .progress {
   background-color: #4caf50;
   height: 100%;
