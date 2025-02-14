@@ -29,6 +29,8 @@ header .header-left {
 }
 header .header-right {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   align-items: center; /* Center the button vertically */
 }
 header,
@@ -92,8 +94,7 @@ body.light-mode article {
 }
 .contact-buttons {
   display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
+  gap: 10px;
 }
 .dark-mode .btn {
   background-color: #000;
@@ -161,6 +162,10 @@ body.light-mode .header-right .btn:hover {
 
 /* Media query for adaptive design */
 @media (max-width: 768px) {
+  .contact-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
   main {
     flex-direction: column;
   }
