@@ -36,6 +36,26 @@
           </select>
           <button @click="isDark = !isDark" class="btn" x-text="isDark ? 'Light Mode' : 'Dark Mode'"></button>
         </div>
+        <div class="dropdown-menu">
+          <button class="btn"> Menu  </button>
+          <div class="dropdown-content">
+            <a :href="'https://t.me/' + cvData?.telegram" target="_blank">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a :href="'mailto:' + cvData?.email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a :href="cvData?.github" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <select x-model="language">
+              <option value="en">EN</option>
+              <option value="ru">RU</option>
+              <option value="es">ES</option>
+            </select>
+            <button @click="isDark = !isDark" x-text="isDark ? 'Light Mode' : 'Dark Mode'"></button>
+          </div>
+        </div>
       </div>
     </header>
     <p x-text="cvData[language]?.title" class="job-title"></p>

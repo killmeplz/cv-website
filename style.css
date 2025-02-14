@@ -112,6 +112,7 @@ body.light-mode article {
   display: flex;
   align-items: center;
   padding: 0.5rem 1rem;
+  padding-right: 1.25rem;
   border: 1px solid #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -136,7 +137,23 @@ body.light-mode .header-right .btn:hover {
   background: #000;
   color: #fff;
 }
+body.light-mode .dropdown-content {
+  background-color: #fff;
+  border: 1px solid #000;
+}
 
+body.light-mode .dropdown-content a,
+body.light-mode .dropdown-content select,
+body.light-mode .dropdown-content button {
+  color: #000;
+}
+
+body.light-mode .dropdown-content a:hover,
+body.light-mode .dropdown-content select:hover,
+body.light-mode .dropdown-content button:hover {
+  background: #000;
+  color: #fff;
+}
 .job-title {
   font-size: 1.25rem;
   font-weight: bold;
@@ -160,11 +177,14 @@ body.light-mode .header-right .btn:hover {
   line-height: 20px; /* Align text vertically */
 }
 
+.dropdown-menu {
+  display: none;
+}
+
 /* Media query for adaptive design */
 @media (max-width: 768px) {
   .contact-buttons {
-    flex-direction: column;
-    align-items: flex-start;
+    display: none;
   }
   main {
     flex-direction: column;
@@ -173,5 +193,56 @@ body.light-mode .header-right .btn:hover {
   .right-column {
     flex: 1;
     width: 100%;
+  }
+  .dropdown-menu {
+    display: block;
+    position: relative;
+  }
+
+  .dropdown-menu button {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .dropdown-content a,
+  .dropdown-content select,
+  .dropdown-content button {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+  }
+
+  .dropdown-content a:hover,
+  .dropdown-content select:hover,
+  .dropdown-content button:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  .dropdown-menu:hover .dropdown-content {
+    display: block;
   }
 }
