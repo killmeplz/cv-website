@@ -91,9 +91,6 @@ article {
   padding: 1rem;
   margin-bottom: 1rem;
 }
-body.light-mode article {
-  border: 1px dashed #000;
-}
 .contact-buttons {
   display: flex;
   gap: 10px;
