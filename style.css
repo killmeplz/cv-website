@@ -1,6 +1,6 @@
 /* Futuristic terminal styling */
 body {
-  font-family: 'Consolas', 'Courier New', Courier, monospace;
+  font-family: 'JetBrains Mono', monospace;
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
@@ -36,6 +36,9 @@ header .header-right {
 header,
 section {
   margin-bottom: 0.5rem;
+}
+h1, h2, h3, p, a, button, select {
+  font-family: 'JetBrains Mono', monospace;
 }
 h1 {
   font-size: 2rem; /* 1.5x scale */
@@ -85,7 +88,6 @@ main {
   flex: 3;
 }
 article {
-  border: 1px dashed #fff;
   padding: 1rem;
   margin-bottom: 1rem;
 }
